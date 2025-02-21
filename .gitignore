@@ -12,8 +12,8 @@ env/
 .env.local
 
 # Archivos de configuración de Git
-.git
-.gitignore
+#.git
+#.gitignore
 
 # Configuración de dependencias
 Pipfile
@@ -24,8 +24,8 @@ Pipfile.lock
 Thumbs.db
 
 # Docker y caché
-.dockerignore
-Dockerfile
+#.dockerignore
+#Dockerfile
 *.tar
 *.sqlite3
 *.db
