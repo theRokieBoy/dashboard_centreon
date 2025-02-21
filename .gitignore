@@ -1,5 +1,39 @@
-__pycache__
-resultados.json
-env
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Entorno virtual
+venv/
 .env
+.env.local
+
+# Archivos de configuración de Git
+.git
+.gitignore
+
+# Configuración de dependencias
+Pipfile
+Pipfile.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Docker y caché
+.dockerignore
+Dockerfile
+*.tar
+*.sqlite3
+*.db
+
+# Archivos de desarrollo
+.vscode/
+.idea/
+*.swp
+
+#archivos que no deseo compartir
 consultas.py
+resultados.json

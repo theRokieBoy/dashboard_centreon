@@ -1,6 +1,32 @@
+# Archivos y carpetas innecesarios
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+
+# Entornos virtuales
+env/
 .env
-.vscode/
-utils.pyc
-copia-app.tar
+.env.local
+
+# Archivos de configuración de Git
+.git
+.gitignore
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias innecesarios
+node_modules/
+package-lock.json
+yarn.lock
+
+# Caché de Docker
+.dockerignore
+Dockerfile
+
+#archivos que no deseo compartir
+consultas.py
+resultados.json
