@@ -118,9 +118,9 @@ def generate_chart():
         df_filesystem = df_filesystem.sort_values(by="Used %", ascending=False).drop_duplicates(
             subset=["Host", "Disk"], keep="first").head(30)
 
-        df_espacio_free = pd.concat(
-            [df_disco, df_filesystem], ignore_index=True)
-        print(df_espacio_free)
+        # df_espacio_free = pd.concat(
+        #     [df_disco, df_filesystem], ignore_index=True)
+        # print(df_espacio_free)
 
         # Crear el gráfico
         plt.style.use('dark_background')
@@ -225,7 +225,7 @@ def home():
     return f"""
     <html>
     <head>
-        <meta http-equiv="refresh" content="300"> <!-- Refresca cada 5 minutos -->
+        <meta http-equiv="refresh" content="180"> <!-- Refresca cada 3 minutos -->
         <title>Uso de Memoria y CPU</title>
     </head>
     <body>
